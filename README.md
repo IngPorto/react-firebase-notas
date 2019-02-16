@@ -16,6 +16,22 @@ $ npm install
 $ npm start
 ```
 
+### Local projects
+
+It is mandatory for local installation to have a Firebase account, and create the file /src/config/config.js with the next structure
+
+```javascript
+export const DB_CONFIG = {
+    apiKey: "xxxxxxxxxx_xxxxx",
+    authDomain: "xxxxxx.firebaseapp.com",
+    databaseURL: "https://xxxxxx.firebaseio.com",
+    projectId: "xxxxxxxxxxx",
+    storageBucket: "xxxxxxxxx.appspot.com",
+    messagingSenderId: "xxxxxxxxxxx"
+};
+```
+> Note: Firebase provides the DB_CONFIG credencials
+
 ## Global access
 
 [https://ingportonotas.now.sh/](https://ingportonotas.now.sh/)
