@@ -1,5 +1,6 @@
 # React Firebase Notas
 You can create a note with a nickname and publish in a time line. Aplication made with ReactJS and Firebase.
+
 ![react_v16.8.1](https://img.shields.io/badge/react-v16.8.1-blue.svg)
 ![react-scripts_v2.1.5](https://img.shields.io/badge/react--scripts-v2.1.5-yellowgreen.svg)
 ![firebase_v5.8.3](https://img.shields.io/badge/firebase-v5.8.3-ff9800.svg)
@@ -22,7 +23,6 @@ $ npm start
 
 ## Preveiw
 ###### Desktop - Mobile (with nickname access) - Mobile (adding a new note)
-<br/>
 ![screenshot](./public/img/screenshot.png)
 
 
