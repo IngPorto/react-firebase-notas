@@ -1,5 +1,5 @@
 # React Firebase Notas
-You can create a note with a nickname and publish in a time line. Aplication made with ReactJS and Firebase.
+You can create a note with a nickname and publish in a timeline. Application made with ReactJS and Firebase.
 
 ![react_v16.8.1](https://img.shields.io/badge/react-v16.8.1-blue.svg)
 ![react-scripts_v2.1.5](https://img.shields.io/badge/react--scripts-v2.1.5-yellowgreen.svg)
@@ -18,7 +18,7 @@ $ npm start
 
 ### Local projects
 
-It is mandatory for local installation to have a Firebase account, and create the file /src/config/config.js with the next structure
+It is mandatory for local installation to have a Firebase account, and create the file /src/config/config.js with the next structure:
 
 ```javascript
 export const DB_CONFIG = {
@@ -30,14 +30,14 @@ export const DB_CONFIG = {
     messagingSenderId: "xxxxxxxxxxx"
 };
 ```
-> Note: Firebase provides the DB_CONFIG credencials
+> Note: Firebase provides the DB_CONFIG credentials
 
 ## Global access
 
 [https://ingportonotas.now.sh/](https://ingportonotas.now.sh/)
 
 
-## Preveiw
+## Preview
 ###### Desktop - Mobile (with nickname access) - Mobile (adding a new note)
 ![screenshot](./public/img/screenshot.png)
 
